@@ -6,7 +6,7 @@
 		      stage('Pull') {
 			   steps{
 			      script{
-				  checkout([$class: 'GitSCM', branches: [[name: '*/main']],
+				  checkout([$class: 'GitSCM', branches: [[name: '*/master']],
 				      userRemoteConfigs: [[
 					  credentialsId: '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',
 					  url: 'https://github.com/walid1919/CD.git']]])
