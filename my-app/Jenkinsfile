@@ -8,7 +8,7 @@
 			      script{
 				  checkout([$class: 'GitSCM', branches: [[name: '*/main']],
 				      userRemoteConfigs: [[
-					  credentialsId: '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',
+					  credentialsId: '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',
 					  url: 'https://github.com/walid1919/CD.git']]])
 			      }
 		          }
