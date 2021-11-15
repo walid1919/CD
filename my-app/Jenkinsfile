@@ -3,15 +3,6 @@
 
 		agent any
 		  stages {
-		      stage('Pull') {
-			   steps{
-			      script{
-				  checkout([$class: 'GitSCM', branches: [[name: '*/main']],
-				      userRemoteConfigs: [[
-					  credentialsId: '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',
-					  url: 'https://github.com/walid1919/CD.git']]])
-			      }
-		          }
-		     }
+		     
 	     }
 	     }
